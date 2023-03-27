@@ -299,7 +299,7 @@ String fathername= jTextField7.getText();
         
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con =  (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/srm","root","monu2626");
+            Connection con =  (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/srm","root","password");
             
             Statement st = con.createStatement();
             
